@@ -237,7 +237,7 @@ table {
 }
 
 .header-social-icons>ul>li>a>i {
-	color: #fdb911;
+	color: #fdba3d;
 	margin-right: 30px;
 	font-size: 24px;
 }
@@ -352,7 +352,7 @@ section.welcome-sec p {
 	width: 100%;
 	height: 100%;
 	background-color: #3dafa5;
-	opacity: 0.6;
+	opacity: 0.9;
 }
 
 section.magic-sec h3 {
@@ -500,7 +500,7 @@ footer {
 }
 
 .foo-social-icons i {
-    color: #fdb911;
+    color: #fdba3d;
     margin-right: 10px;
     font-size: 24px;
 }
