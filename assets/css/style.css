@@ -515,3 +515,52 @@ p.copyright-sec {
     color: #ee4a5c;
     font-family: arialMt;
 }
+
+section.magic-sec h3 {
+    color: #fdba3d;
+    text-decoration: none;
+}
+
+.spells-main-box {
+    text-align: center;
+}
+
+.spells-main-box p:first-child {
+    color: #0a213c;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: gothamMedium;
+    font-weight: 100;
+}
+
+.spells-main-box p:nth-of-type(2n) {
+    color: #fff;
+    font-family: arialMt;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 2px;
+    line-height: 20px;
+}
+
+.prog-cover-box {
+    background-color: #fdba3d;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.prog-cover-box p {
+    font-size: 26px !important;
+    font-family: arialBoldMt !important;
+    text-transform: capitalize !important;
+    color: #0a213c !important;
+    font-weight: 100 !important;
+    margin-bottom: 0px !important;
+}
+
+.prog-cover-box p:nth-of-type(2n) {
+    font-size: 14px !important;
+}
+
+.prog-cover-box img {
+    margin-top: 40px;
+}
