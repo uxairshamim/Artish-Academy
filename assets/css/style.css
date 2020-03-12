@@ -184,9 +184,10 @@ table {
 	border-radius: 20px;
 	line-height: 40px;
 	height: 40px;
-	font-size: 19px;
+	font-size: 17px;
 	background-color: #2ba99d;
 	text-transform: capitalize;
+	width: 100%;
 }
 
 .custom-navbar {
@@ -483,7 +484,7 @@ section.partners-sec ul>li {
 	border-radius: 20px;
 	line-height: 40px;
 	height: 40px;
-	font-size: 19px;
+	font-size: 17px;
 	background-color: #2ba99d;
 	text-transform: capitalize;
 }
@@ -709,15 +710,17 @@ section.courses-det-sec {
 
 .courses-det-desc h5 {
 	font-family: gothamMedium;
-	font-size: 36px;
+	font-size: 34px;
 	/* text-decoration: underline; */
 	color: #0a213c;
+	text-transform: uppercase;
 	margin: 0 0px 5px 0;
 	padding: 0;
 }
 
 .courses-det-desc h5>span {
 	font-size: 18px;
+	text-transform: capitalize;
 }
 
 .courses-det-desc h5:after {
@@ -778,6 +781,7 @@ section.magic-sec.tutors-sec p {
 	align-items: center;
 	background-color: #fdba3d;
 	margin-bottom: 30px;
+	width: 100%;
 }
 
 .tuto-info-1 {
@@ -785,7 +789,7 @@ section.magic-sec.tutors-sec p {
 }
 
 .tutors-prof-box h5 {
-	font-size: 36px;
+	font-size: 31px;
 	text-transform: capitalize;
 	font-family: gothamMedium;
 	/* margin: 0 0 10px 0; */
@@ -800,6 +804,7 @@ section.magic-sec.tutors-sec p {
 	color: #ee4a5c;
 	margin: 0;
 	padding: 0;
+	width: 80%;
 	line-height: 18px;
 }
 
@@ -978,3 +983,38 @@ section.workshop-table-sec p {
     border-bottom: none !important;
 }
 
+section.about-sec h4 {
+    font-family: gothamBold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0a213c;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section.about-sec h5 {
+    font-family: gothamBold;
+    text-transform: uppercase;
+    color: #0a213c;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.about-sec p{
+	font-family: gothamThin;
+    font-size: 18px;
+    color: #000;
+    line-height: 25px;
+    font-weight: 700;
+	padding: 0;
+	margin: 0;
+	text-align: justify;
+}
+
+section.about-sec {
+    padding: 60px 0;
+}
+
+.vision-box {
+    margin: 20px 0;
+}

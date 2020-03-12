@@ -1,5 +1,13 @@
 @media all and (max-width: 767px) { 
-
+    nav.navbar.navbar-expand-md.custom-navbar.navbar-dark img {
+        margin: 0 auto;
+        display: table;
+    }
+    .header-social-icons ul {
+        float: unset !important;
+        margin: 0 auto !important;
+        display: table !important;
+    }
     .program-main-box {
         height: auto !important;
     }
@@ -7,7 +15,9 @@
     .program-image-box {
         display: block !important;
     }
-
+    .courses-det-desc h5>span {
+        font-size: 29px !important;
+    }
     .program-image-box h6 {
         font-size: 28px !important;
         width: 100% !important;
@@ -57,6 +67,13 @@
     .register-btn-box {
         margin: 50px auto 50px auto !important;
     }
+    .col-mobile {
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+
 }
 
  
@@ -85,7 +102,17 @@
     .workshop-det-box-3 {
         float: unset !important;
     }
-
+    .prog-cover-box p{
+        font-size: 18px !important;
+    }
+    .prog-cover-box {
+        padding: 30px 4px !important;
+        height: 275px !important;
+    }
+    .top-header a {
+        padding: 0 5px !important;
+        font-size: 12px !important;
+    }
 }
 
 
