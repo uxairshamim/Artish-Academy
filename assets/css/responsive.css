@@ -117,6 +117,8 @@
         font-size: 12px !important;
     }
 
+        /* new css start */
+
   .launch-text {
 	font-size: 24px !important;
   }
@@ -124,6 +126,8 @@
   .header-social-icons>ul>li>a>i {
 	margin-right: 20px !important;
   }
+
+      /* new css end */
 
 }
 
