@@ -72,8 +72,11 @@
         flex: 0 0 100% !important;
         max-width: 100% !important;
     }
-
-
+    /* new css start */
+    .launch-text {
+        font-size: 29px !important;
+    }
+    /* new css end */
 }
 
  
@@ -113,6 +116,15 @@
         padding: 0 5px !important;
         font-size: 12px !important;
     }
+
+  .launch-text {
+	font-size: 24px !important;
+  }
+
+  .header-social-icons>ul>li>a>i {
+	margin-right: 20px !important;
+  }
+
 }
 
 

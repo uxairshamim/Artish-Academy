@@ -263,19 +263,6 @@ div#demo {
 	background-color: #0a213c;
 }
 
-.carousel-item img {
-	/* float: right; */
-	width: 100%;
-	object-fit: cover;
-}
-
-.carousel-item .carousel-caption {
-	left: 54px;
-	right: unset;
-	top: 20px;
-	width: 38%;
-	text-align: left;
-}
 
 .carousel-item .carousel-caption h1 {
 	font-family: 'Bebas Neue';
@@ -791,7 +778,7 @@ section.magic-sec.tutors-sec p {
 }
 
 .tutors-prof-box h5 {
-	font-size: 31px;
+	font-size: 29px;
 	text-transform: capitalize;
 	font-family: gothamMedium;
 	/* margin: 0 0 10px 0; */
@@ -1004,10 +991,10 @@ section.about-sec h5 {
 
 .about-sec p{
 	font-family: gothamThin;
-    font-size: 18px;
-    color: #000;
-    line-height: 25px;
-    font-weight: 700;
+	font-size: 18px;
+	color: #000;
+	line-height: 25px;
+	font-weight: 700;
 	padding: 0;
 	margin: 0;
 	text-align: justify;
@@ -1083,3 +1070,72 @@ section.about-sec {
 section.partners-sec ul>li {
     padding-right: 30px;
 }
+
+
+/** new css  start ***/
+
+.carousel-item {
+	height: 600px !important;
+}
+
+
+.carousel-item img {
+	float: right;
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
+}
+
+.carousel-item .carousel-caption {
+	left: 54px;
+	right: unset;
+	top: 20px;
+	width: 38%;
+	text-align: left;
+}
+
+section.about-sec h5{
+	text-align: center;
+}
+
+.vision-box {
+    margin: 20px 0;
+    background-color: #fdba3d;
+    padding: 30px 20px;
+    height: 370px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+/* width */
+.vision-box::-webkit-scrollbar {
+	width: 8px;
+  }
+  
+  /* Track */
+.vision-box::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px fdba3d; 
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+.vision-box::-webkit-scrollbar-thumb {
+	background: #ee4a5c; 
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+.vision-box::-webkit-scrollbar-thumb:hover {
+	background: #ee4a5c; 
+  }
+
+  .launch-text{
+	font-size: 32px;
+    color: #fdba3d;
+    text-transform: uppercase;
+    font-family: gothamMedium;
+    margin: 0;
+    padding: 0;
+  }
+
+/** new css  end ***/
